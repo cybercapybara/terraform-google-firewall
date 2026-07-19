@@ -8,7 +8,7 @@ direction with allow and deny blocks driven by simple protocol-to-ports maps.
 
 ```hcl
 module "firewall" {
-  source = "github.com/cybercapybara/terraform-google-firewall"
+  source = "github.com/moveeeax/terraform-google-firewall"
 
   project_id = var.project_id
   name       = "allow-ssh"
